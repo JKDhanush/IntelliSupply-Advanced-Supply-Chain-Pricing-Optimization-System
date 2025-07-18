@@ -33,11 +33,11 @@ It integrates **14 trained predictive models** with a **FastAPI backend** for **
 ---
 
 ## 📂 Project Structure
+```bash
 IntelliSupply/
-│── models/ # Pre-trained predictive models (.pkl)
-│── datasets/ # Training & validation datasets
-│── main.py # FastAPI server entry point
-│── model_preparation/ # Jupyter notebooks for model training
-│── test_api_endpoints.py # API testing and validation scripts
-│── requirements.txt # Project dependencies
-
+├── models/                 # Pre-trained predictive models (.pkl)
+├── datasets/               # Training & validation datasets
+├── main.py                 # FastAPI server entry point
+├── model_preparation/      # Jupyter notebooks for model training
+├── test_api_endpoints.py   # API testing and validation scripts
+└── requirements.txt        # Project dependencies
